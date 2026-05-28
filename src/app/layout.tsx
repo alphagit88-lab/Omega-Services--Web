@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Omega Services - Gas Station Service Experts',
   description: 'Professional gas dispenser service, Texas compliance inspections, and POS register service in Houston, TX',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/logo1.jpeg',
   },
 }
 

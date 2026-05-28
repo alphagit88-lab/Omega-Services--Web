@@ -44,7 +44,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-12 h-12 overflow-hidden rounded-full border border-gray-100 shadow-sm transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="/logo.jpg"
+                src="/logo1.jpeg"
                 alt="Omega Services Logo"
                 fill
                 sizes="48px"
