@@ -10,11 +10,11 @@ export default function Contact() {
   return (
     <div className="bg-white">
       {/* Page Header */}
-      <section className="bg-gray-50 border-b border-gray-100 py-20">
+      <section className="bg-gradient-to-br from-secondary via-gray-800 to-primary-dark border-b border-gray-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-sm font-bold tracking-wider text-primary uppercase mb-2 block">Get In Touch</span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-950 tracking-tight mb-4">Contact Us</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <span className="text-sm font-bold tracking-wider text-red-300 uppercase mb-2 block">Get In Touch</span>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">Contact Us</h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Ready to schedule a service technician? Reach out via phone, email, or use our request form.
           </p>
         </div>

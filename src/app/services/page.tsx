@@ -12,14 +12,11 @@ export default function Services() {
   return (
     <div className="bg-white">
       {/* Header */}
-      <section className="bg-gray-50 border-b border-gray-100 py-20">
+      <section className="bg-gradient-to-br from-secondary via-gray-800 to-primary-dark border-b border-gray-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-            What We Offer
-          </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-950 tracking-tight mb-4">Our Services</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <span className="text-sm font-bold tracking-wider text-red-300 uppercase mb-2 block">What We Offer</span>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">Our Services</h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
             From physical nozzle replacements to complex digital network wiring, we provide full support.
           </p>
         </div>

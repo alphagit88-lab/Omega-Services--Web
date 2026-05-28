@@ -9,7 +9,7 @@ import { Menu, X, Phone, ArrowRight } from 'lucide-react'
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/services', label: 'Services' },
-  { href: '/wayne-pump', label: 'Wayne Pump' },
+  { href: '/wayne-anthem', label: 'Wayne Anthem' },
   { href: '/about', label: 'About Us' },
   { href: '/contact', label: 'Contact Us' },
 ]
@@ -83,6 +83,14 @@ export default function Header() {
                 </Link>
               )
             })}
+            <a
+              href="https://book.servicem8.com/request_service_booking?strVendorUUID=d700bf0c-2ac0-478e-9268-223a5d852fab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-gradient-to-r from-primary to-primary-light hover:from-primary-light hover:to-primary text-white text-sm font-bold uppercase tracking-wider px-5 py-2.5 rounded-lg shadow-sm transition-all duration-500"
+            >
+              Book Service
+            </a>
           </nav>
 
 
@@ -131,10 +139,19 @@ export default function Header() {
               <Phone className="w-5 h-5 mr-3 text-primary" />
               (281)-850-1308
             </a>
+            <a
+              href="https://book.servicem8.com/request_service_booking?strVendorUUID=d700bf0c-2ac0-478e-9268-223a5d852fab"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="w-full text-center bg-gradient-to-r from-primary to-primary-light hover:from-primary-light hover:to-primary text-white text-sm font-bold uppercase tracking-wider py-3 rounded-lg shadow-sm transition-all duration-500"
+            >
+              Book Service
+            </a>
             <Link
               href="/contact"
               onClick={() => setIsOpen(false)}
-              className="w-full text-center bg-primary hover:bg-primary-light text-white text-sm font-bold uppercase tracking-wider py-3 rounded-lg shadow-sm transition-all"
+              className="w-full text-center bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 text-sm font-bold uppercase tracking-wider py-3 rounded-lg shadow-sm transition-all"
             >
               Get a Quote
             </Link>
