@@ -185,7 +185,7 @@ export default function Services() {
                   'Dispenser interface box (D-Box) wiring',
                   'Network router & switch configuration',
                   'Receipt printer & scanner setups',
-                  'Dispenser card reader loop isolation',
+                  'Dispenser card reader issues/errors',
                   'Troubleshooting processing errors'
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start text-sm text-gray-700 font-medium">

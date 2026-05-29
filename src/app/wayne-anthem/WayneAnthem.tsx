@@ -6,8 +6,6 @@ import { useState } from 'react'
 import { Check, Settings, Fuel, Wrench, Phone, ArrowRight, X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const galleryImages = [
-  '/ax27.webp',
-  '/ax12.webp',
   '/DSC09803.webp',
   '/DSC09804.webp',
   '/DSC09806.webp',
@@ -95,7 +93,7 @@ export default function WayneAnthemContent() {
               <div className="lg:col-span-5">
                 <div className="bg-gradient-to-tr from-gray-100 to-white border border-gray-200 rounded-3xl p-4 shadow-sm">
                   <Image
-                    src="/ax27.webp"
+                    src="/ax27.jpeg"
                     alt="Wayne Anthem AX27"
                     width={500}
                     height={400}
@@ -112,7 +110,7 @@ export default function WayneAnthemContent() {
               <div className="lg:col-span-5 order-2 lg:order-1">
                 <div className="bg-gradient-to-tr from-gray-100 to-white border border-gray-200 rounded-3xl p-4 shadow-sm">
                   <Image
-                    src="/ax12.webp"
+                    src="/ax12.jpeg"
                     alt="Wayne Anthem AX12"
                     width={500}
                     height={400}
