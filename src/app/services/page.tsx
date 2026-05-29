@@ -81,14 +81,6 @@ export default function Services() {
                     <span className="font-semibold text-gray-900">Wayne Fueling Systems</span>
                     <span>Ovation & Helix</span>
                   </li>
-                  <li className="flex justify-between border-b border-gray-200/60 pb-2 text-sm text-gray-750">
-                    <span className="font-semibold text-gray-900">Tokheim & Bennet</span>
-                    <span>Select models</span>
-                  </li>
-                  <li className="flex justify-between pb-1 text-sm text-gray-750">
-                    <span className="font-semibold text-gray-900">Submersible Turbines</span>
-                    <span>Red Jacket & FE Petro</span>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -199,7 +191,7 @@ export default function Services() {
             <div className="lg:col-span-5 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="relative h-64 w-full overflow-hidden">
                 <Image
-                  src="/pos image.jpeg"
+                  src="/pos-image.jpeg"
                   alt="POS Register Setup"
                   fill
                   sizes="(max-w-768px) 100vw, 33vw"

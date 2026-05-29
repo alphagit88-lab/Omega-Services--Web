@@ -56,7 +56,7 @@ export default function Home() {
                 'Software and rate troubleshooting'
               ]}
               href="/services#pos"
-              imageUrl="/pos image.jpeg"
+              imageUrl="/pos-image.jpeg"
             />
           </div>
           <div className="text-center mt-12">

@@ -10,14 +10,14 @@ const slides = [
     subHeadline: 'Keeping Houston-area stations running smoothly, efficiently, and fully compliant since 2019.',
     buttonText: 'Learn More',
     buttonLink: '#about',
-    bgImage: '/image-1.jpg',
+    bgImage: '/DSC09878.webp',
   },
   {
     headline: 'Backed by 25+ Years of Industry Expertise',
     subHeadline: 'Highly skilled maintenance and support for Gilbarco and Wayne fuel dispensers, and advanced POS systems.',
     buttonText: 'Explore Our Services',
     buttonLink: '#services',
-    bgImage: '/image-2.jpg',
+    bgImage: '/DSC09870.webp',
   },
   {
     headline: 'Minimizing Downtime. Maximizing Compliance.',
