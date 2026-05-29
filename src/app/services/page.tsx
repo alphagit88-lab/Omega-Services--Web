@@ -212,19 +212,19 @@ export default function Services() {
                 <ul className="space-y-3.5">
                   <li className="flex justify-between border-b border-gray-200/60 pb-2 text-sm text-gray-750">
                     <span className="font-semibold text-gray-900">Console Registers</span>
-                    <span>Passport & Commander</span>
+                    <span className="text-right">Passport & Commander</span>
                   </li>
                   <li className="flex justify-between border-b border-gray-200/60 pb-2 text-sm text-gray-750">
                     <span className="font-semibold text-gray-900">PIN Pads</span>
-                    <span>Verifone MX915 / MX925</span>
+                    <span className="text-right">Verifone MX915 / M400</span>
                   </li>
                   <li className="flex justify-between border-b border-gray-200/60 pb-2 text-sm text-gray-750">
                     <span className="font-semibold text-gray-900">Pumps Interface</span>
-                    <span>PAM / D-Box isolation wiring</span>
+                    <span className="text-right">D-Box, BRCM, Wired Switch / Wireless Switch</span>
                   </li>
                   <li className="flex justify-between pb-1 text-sm text-gray-750">
                     <span className="font-semibold text-gray-900">Thermal Printers</span>
-                    <span>Epson & Star Micronics</span>
+                    <span className="text-right">Epson & Star Micronics</span>
                   </li>
                 </ul>
               </div>
