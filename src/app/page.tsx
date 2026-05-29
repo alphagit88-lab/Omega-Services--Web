@@ -112,15 +112,12 @@ export default function Home() {
               </Link>
             </div>
             <div className="lg:col-span-5">
-              <div className="relative rounded-3xl overflow-hidden shadow-lg border border-gray-150 bg-black w-full aspect-video md:aspect-[4/3] flex items-center justify-center">
-                <video
-                  src="/Omega Pumping Service.mp4"
-                  controls
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover"
+              <div className="relative rounded-3xl overflow-hidden shadow-lg w-full aspect-video md:aspect-[16/9] flex items-center justify-center">
+                <iframe
+                  src="https://player.mux.com/y3CzlR3zD01JjBRblQ973J9JJohxRvhm8Gzcq602Gy3Vg"
+                  style={{ width: "100%", aspectRatio: "16 / 9", border: 0, scale: 1.002 }}
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+                  allowFullScreen
                 />
               </div>
             </div>
