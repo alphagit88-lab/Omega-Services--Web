@@ -17,14 +17,14 @@ const slides = [
     subHeadline: 'Highly skilled maintenance and support for Gilbarco and Wayne fuel dispensers, and advanced POS systems.',
     buttonText: 'Explore Our Services',
     buttonLink: '#services',
-    bgImage: '/DSC09870.webp',
+    bgImage: '/DSC09864.webp',
   },
   {
     headline: 'Minimizing Downtime. Maximizing Compliance.',
     subHeadline: 'Fast, reliable response times to keep your station operational and strictly up-to-date with Texas state regulations.',
     buttonText: 'Get Support',
     buttonLink: '#contact',
-    bgImage: 'https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1600&auto=format&fit=crop',
+    bgImage: '/DSC09810-Edit.webp',
   },
   {
     headline: "Focused on Your Station's Success",

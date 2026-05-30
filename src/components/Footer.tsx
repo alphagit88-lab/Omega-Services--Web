@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react'
 const quickLinks = [
   { href: '/', label: 'Home' },
   { href: '/services', label: 'Services' },
-  { href: '/wayne-pump', label: 'Wayne Pump' },
+  { href: '/wayne-anthem', label: 'Wayne Anthem' },
   { href: '/about', label: 'About Us' },
   { href: '/contact', label: 'Contact Us' },
 ]

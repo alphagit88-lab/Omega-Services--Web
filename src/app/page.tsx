@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
               </div>
               <Link
-                href="/wayne-pump"
+                href="/wayne-anthem"
                 className="inline-flex items-center text-primary font-bold hover:text-primary-light transition-colors group"
               >
                 <span>Learn More About Wayne Pump Service</span>

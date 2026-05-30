@@ -110,7 +110,7 @@ export default function WayneAnthemContent() {
               <div className="lg:col-span-5 order-2 lg:order-1">
                 <div className="bg-gradient-to-tr from-gray-100 to-white border border-gray-200 rounded-3xl p-4 shadow-sm">
                   <Image
-                    src="/ax27.jpeg"
+                    src="/wa-ax12.jpeg"
                     alt="Wayne Anthem AX12"
                     width={500}
                     height={400}
