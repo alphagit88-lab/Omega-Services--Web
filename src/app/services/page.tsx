@@ -225,7 +225,58 @@ export default function Services() {
         </div>
       </section>
 
-      {/* CTA Box */}
+      {/* 4. Fuel Pump Calibration & Tank Testing Services */}
+      <section id="calibration" className="py-24 scroll-mt-24 bg-gray-50/50 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+            {/* Left Content Column */}
+            <div className="lg:col-span-7 space-y-6">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary">
+                Calibration &amp; Verification
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-950 tracking-tight">
+                Fuel Pump Calibration &amp; Tank Testing Services
+              </h2>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Ensure your fuel dispensing equipment is accurate, compliant, and operating at peak performance. We provide professional calibration, testing, and verification services for diesel and gasoline pumps, helping businesses maintain measurement accuracy, regulatory compliance, and customer confidence.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+                {[
+                  'High-Flow Diesel Pump Calibration',
+                  '5-Gallon Calibration Testing',
+                  'Regular Gasoline Pump Calibration',
+                  'Tank Testing Services',
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-start text-xs text-gray-700 font-semibold">
+                    <Check className="w-4 h-4 text-primary mr-2 flex-shrink-0 mt-0.5" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Unified Card Column */}
+            <div className="lg:col-span-5 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+              <div className="relative h-64 w-full overflow-hidden">
+                <Image
+                  src="/fp-calib.jpeg"
+                  alt="Fuel Pump Calibration & Tank Testing Services"
+                  fill
+                  sizes="(max-w-768px) 100vw, 33vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-8 bg-gray-50/50">
+                <p className="text-sm font-semibold text-gray-800 leading-snug italic">
+                  Accurate Fuel Measurement. Reliable Performance. Regulatory Compliance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-primary to-primary-dark text-white rounded-3xl p-10 md:p-12 shadow-lg text-center md:text-left md:flex items-center justify-between">

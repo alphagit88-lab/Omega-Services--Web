@@ -13,7 +13,9 @@ const services = [
   { href: '/services#dispenser', label: 'Gas Dispenser Service' },
   { href: '/services#compliance', label: 'State Compliance Inspections' },
   { href: '/services#pos', label: 'POS Register Setup & Support' },
+  { href: '/services#calibration', label: 'Fuel Pump Calibration & Tank Testing' },
 ]
+
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -104,7 +106,15 @@ export default function Footer() {
         {/* Footer Bottom copyright */}
         <div className="border-t border-red-900 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-red-200">
           <p className="mb-4 sm:mb-0">
-            &copy; {currentYear} Omega Services. All rights reserved.
+            &copy; 2026 Omega Services. All rights reserved. Powered by{' '}
+            <a
+              href="https://cyberdreams.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-150 underline"
+            >
+              Cyber Dreams
+            </a>
           </p>
           <div className="flex space-x-6">
             <Link href="/privacy" className="hover:text-white transition-colors duration-150">Privacy Policy</Link>

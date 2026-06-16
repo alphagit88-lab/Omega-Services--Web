@@ -21,7 +21,7 @@ export default function Home() {
               We specialize in the installation, repair, and compliance auditing of critical gas station systems.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <ServiceCard
               title="Gas Dispenser Service"
               description="Reliable troubleshooting and repair for Gilbarco, Wayne, and other major fuel dispenser systems."
@@ -57,6 +57,18 @@ export default function Home() {
               ]}
               href="/services#pos"
               imageUrl="/pos-image.jpeg"
+            />
+            <ServiceCard
+              title="Fuel Pump Calibration & Tank Testing"
+              description="Professional calibration, testing, and verification services to keep your fuel dispensing equipment accurate, compliant, and at peak performance."
+              features={[
+                'High-Flow Diesel Pump Calibration',
+                '5-Gallon Calibration Testing',
+                'Regular Gasoline Pump Calibration',
+                'Tank Testing Services'
+              ]}
+              href="/services#calibration"
+              imageUrl="/fp-calib.jpeg"
             />
           </div>
           <div className="text-center mt-12">
